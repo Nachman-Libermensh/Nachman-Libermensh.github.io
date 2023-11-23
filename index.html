@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he">
+
+
 <head>
       <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <link rel="shortcut icon" href="images/s4.png" type="image/x-icon">
+      <title>React - basic</title>
+      <style>
+            html,
+            body {
+                  font-family: 'Assistant', sans-serif;
+                  margin: 0px;
+                  padding: 0px;
+                  direction: rtl;
+            }
+
+            header {
+                  display: flex;
+                  align-items: stretch;
+            }
+
+            #leftHead {
+                  float: left;
+            }
+
+            h1,
+            h3 {
+                  text-align: center;
+            }
+
+            main {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+            }
+
+            a {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  text-align: center;
+                  flex-direction: column;
+                  height: 120px;
+                  width: 120px;
+                  padding: 10px;
+                  margin: 20px;
+                  border-radius: 10px;
+                  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+                  text-align: center;
+                  text-decoration: none;
+                  color: black;
+            }
+
+            a:hover {
+                  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            }
+
+            a:active {
+                  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            }
+
+            span {
+                  display: block;
+            }
+
+            a:hover .header2::before,
+            a:hover .header2::after {
+                  content: "--";
+            }
+      </style>
 </head>
-<body>
-      
+
+<body dir="rtl">
+
+
+      <h1>פרויקטים בריאקט - בסיסי</h1>
+
+      <main>
+            <a href="./KayBoardProject-build/index.html">מקלדת (הקלדת טקסט)
+                  <span class="header2">Project 1</span>
+            </a>
+            <a href="./GetTo100Game-build/index.html">משחק Get-to-100
+                  <span class="header2">Project 2</span>
+            </a>
+      </main>
 </body>
+
+
 </html>
