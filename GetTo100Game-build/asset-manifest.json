@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96f92ecb.css",
+    "main.js": "/static/js/main.cb01de99.js",
+    "static/js/787.075134c2.chunk.js": "/static/js/787.075134c2.chunk.js",
+    "index.html": "/index.html",
+    "static/media/חץ משחק שמאלה.svg": "/static/media/חץ משחק שמאלה.9366ef8b67a3210b13acd4c3164401ae.svg",
+    "main.96f92ecb.css.map": "/static/css/main.96f92ecb.css.map",
+    "main.cb01de99.js.map": "/static/js/main.cb01de99.js.map",
+    "787.075134c2.chunk.js.map": "/static/js/787.075134c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96f92ecb.css",
+    "static/js/main.cb01de99.js"
+  ]
+}
